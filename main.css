@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+input:focus {
+  outline: none !important;
+}
+textarea:focus {
+  outline: none;
+  resize: none;
+}
+textarea {
+  resize: vertical;
+  overflow-x: hidden;
+}
+.container {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.formcontainer {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 10px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  position: relative;
+  margin-top: 150px;
+}
+form label {
+  color: gray;
+  font-family: "Oswald", sans-serif;
+}
+form > div {
+  display: flex;
+  gap: 10px;
+}
+.lb {
+  color: gray;
+  position: absolute;
+  top: -30px;
+}
+
+.lb2 {
+  right: 0;
+}
+form input[type="text"],
+form input [type="email"] {
+  background: none;
+  color: #588157 !important;
+  border: none;
+  border-bottom: 1px gray solid;
+}
+h1 {
+  color: #588157;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  text-align: start;
+  font-family: "Oswald", sans-serif;
+}
+form textarea {
+  background: none;
+  color: #588157;
+  border: none;
+  height: 230px;
+  border-bottom: 1px gray solid;
+}
+.leftcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+  width: 70%;
+  padding: 10px;
+  padding-left: 115px;
+}
+
+.leftcontainer .h2 {
+  margin-bottom: 40px;
+}
+.leftcontainer .h2,
+p {
+  color: black;
+  font-family: "Oswald", sans-serif;
+}
+.leftcontainer button {
+  background: none;
+  border: none;
+  color: #588157;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: large;
+  letter-spacing: 3px;
+  font-family: "Oswald", sans-serif;
+}
+.btn {
+  background: none;
+  border: none;
+  background-color: #588157;
+  padding: 10px;
+  width: 140px;
+  font-family: "Oswald", sans-serif;
+}
+
+@media (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+  }
+  .leftcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 70%;
+    padding: 10px;
+  }
+}
+
+#more {
+  display: none;
+}
+#readMoreBtn {
+  background: none;
+  border: none;
+  color: #588157;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: large;
+  letter-spacing: 3px;
+  font-family: "Oswald", sans-serif;
+  cursor: pointer;
+}

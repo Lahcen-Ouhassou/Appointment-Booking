@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="formcontainer">
+        <h1>
+          "Appointment Booking <br />
+          <span>with Me"</span>
+        </h1>
+        <form action="https://api.web3forms.com/submit" method="POST">
+          <input
+            type="hidden"
+            name="access_key"
+            value="0a517631-5dad-4056-9fcb-ba93baa1257b"
+          />
+
+          <div>
+            <label class="lb" for="firsName">FirstName</label>
+            <input type="text" name="name" />
+            <label class="lb lb2" for="lastName">LastName</label>
+            <input type="text" name="lastname" />
+          </div>
+
+          <label for="email">email</label>
+          <input
+            type="email"
+            name="email"
+            style="border-bottom: 1px gray solid !important; border: none"
+          />
+          <label for="message">Message</label>
+          <textarea
+            name="message"
+            placeholder="Write your message here..."
+            required
+          ></textarea>
+
+          <button class="btn" type="submit">Send message</button>
+        </form>
+      </div>
+      <div class="leftcontainer">
+        <h2 class="h2">
+          Let's talk about <br />
+          everything
+        </h2>
+        <p>
+          Are you looking for a professional and seamless way to schedule an
+          appointment with ease? Whether you're a business owner, a freelancer,
+          or someone who simply values their time — you're in the right place.
+          <span id="dots">...</span>
+          <span id="more">
+            <br /><br />
+            Our online booking system is designed to make your experience smooth
+            and stress-free. You can quickly fill out the form and submit your
+            request — no need for endless back-and-forth emails.
+            <br /><br />
+            Once you send your message, we’ll receive it directly via Gmail and
+            get back to you as soon as possible. We take every request seriously
+            and are happy to discuss details, answer questions, or plan a
+            meeting that suits your schedule.
+            <br /><br />
+            Don’t miss the opportunity to connect, collaborate, or get the help
+            you need — one message is all it takes. Let’s talk about everything!
+          </span>
+        </p>
+        <button id="readMoreBtn">Read more</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://web3forms.com/client/script.js" async defer></script>
+  </body>
+</html>
