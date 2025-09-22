@@ -28,4 +28,7 @@ Try it here:
 
 ## Author
 
-Created by *Lahcen Ouhassou*
+
+Developed by **[Lahcen Ouhassou](https://github.com/Lahcen-Ouhassou)**  
+
+---
