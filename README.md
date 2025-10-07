@@ -32,4 +32,4 @@ Try it here:
 
 Developed by **[Lahcen Ouhassou](https://github.com/Lahcen-Ouhassou)**  
 
----
+ ---
